@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 2) შექმენი დიდი სარეგისტრაციო ველი სადაც გექნება name,lastname,tel,password,email,date,image,
+     range,checkbox და ყველას გაუკეთე placeholder და required და ბოლოხ submit ღილაკი. -->
+
+     <form>
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" placeholder="enter your name">
+<br>
+        <label for="lname">last name</label>
+        <input type="text" name="lname" id="lname" placeholder="enter your last name" required>
+<br>
+        <label for="phone">phone number</label>
+        <input type="number" name="phone" id="phone" placeholder="enter your phone number" required>
+<br>
+        <label for="pas">password</label>
+        <input type="password" name="pas" id="pas" placeholder="enter your password" required>
+<br>
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" placeholder="enter your email" required>
+<br>
+        <label for="date">date</label>
+        <input type="date" name="date" id="date" required>
+<br>
+        <input type="image" src="https://tse3.mm.bing.net/th/id/OIP.uDkx21G_sAq3UWPHVF0NlwAAAA?pid=Api&h=220&P=0" alt="submit" width="200px">
+
+        <br>
+        <label for="range">volume (0 to 100)</label>
+        <input type="range" name="range" id="range" min="0" max="100">
+<br>
+        <label for="checkbox">accept coockies</label>
+        <input type="checkbox" name="checkbox" id="checkbox" required>
+
+     </form>
+</body>
+</html>

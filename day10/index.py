@@ -1,0 +1,1 @@
+aniamal = ["iamal","lamin","makaron"]
